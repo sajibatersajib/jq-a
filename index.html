@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    
+    <!-- fonts-awesome link start here -->
+     <link rel="stylesheet" href="css/all.min.css">
+     <link rel="stylesheet" href="css/fontawesome.min.css">
+    <!-- css & bootstrap link start here -->
+    <link rel="stylesheet" href="css/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <!-- css & bootstrap link end here -->
+    <!-- fonts link start here -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+    <title>JS/JQ</title>
+    
+</head>
+<body>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+
+          <h3>01. Click the button to show alert</h3>
+          <button type="button" class="btn btn-danger showA">Alert</button>
+          <hr>
+
+          <h3>02. dblClick the button to show alert</h3>
+          <button type="button" class="btn btn-danger" id="showA">Alert</button>
+          <hr>
+
+          <h3>03. Mouseover the button to show alert</h3>
+          <button type="button" class="btn btn-danger" id="mOvr">Alert</button>
+          <hr>
+
+          <h3>04. Click the button to show/hide</h3>
+          <button type="button" class="btn btn-danger " id="show">Show</button>
+          <button type="button" class="btn btn-danger " id="hide">Hide</button>
+          <h4 id="tgl">Lorem ipsum dolor sit amet.</h4>
+          <hr>
+
+          <h3>05. Click the button to show/hide</h3>
+          <button type="button" class="btn btn-danger" id="toggle">Toggle</button>
+          <h4 id="tgl1">Lorem ipsum dolor sit amet.</h4>
+          <hr>
+
+          <h3>06. slideup</h3>
+          <div id="slideup"> 
+            <p class="slideup">First Paragraph</p>
+            <p class="slideup">Second Paragraph</p>
+            <p class="slideup">Yet one more Paragraph</p>
+          </div>
+          <hr>
+
+          <h3>07. Click the button to fade in/out</h3>
+          <button type="button" class="btn btn-danger " id="fadein">Show</button>
+          <button type="button" class="btn btn-danger " id="fadeout">Hide</button>
+          <h4 id="fade1">Sajibater Sajib</h4>
+          <hr>
+
+          <h3>08. Click the button to fade toggle</h3>
+          <button type="button" class="btn btn-danger " id="toggle1">Toggle</button>
+          <h4 id="fade2">Sajibater Sajib</h4>
+          <hr>
+
+          <h3>09. If you click on me, I will disappear.</h3>
+          <button type="button" class="btn btn-danger " id="disappear">Disappear</button>
+          <h4 id="disapp">Sajibater Sajib</h4>
+          <hr>
+
+          <h3>10. If you dblclick on me, I will disappear.</h3>
+          <button type="button" class="btn btn-danger" id="disappear1">Disappear</button>
+          <h4 id="disapp1">Sajibater Sajib</h4>
+          <hr>
+
+          <h3>11. Click to fade in boxes.</h3>
+          <button type="button" class="btn btn-danger" id="fboxes">Click here</button><br><br>
+          <div class="" id="div1" ></div>
+          <div class="" id="div2" ></div>
+          <hr>
+
+          <h3>12. Click to fade out boxes.</h3>
+          <button type="button" class="btn btn-danger" id="fboxes1">Click here</button><br><br>
+          <div class="div1" style="width:80px;height:80px;background-color:red; display: inline-block; text-align: center;"></div>
+          <div class="div2" style="width:80px;height:80px;background-color:green; display: inline-block; text-align: center;"></div>
+          <div class="div3" style="width:80px;height:80px;background-color:blue; display: inline-block; text-align: center;"></div>
+          <hr>
+
+          <h3>13. Click to slide the panel down or up.</h3>
+          <button type="button" class="btn btn-danger" id="flip">Click here</button>
+          <div id="panel">Hello world!</div>
+          <hr>
+
+          <h3>14. Click to slide the panel down or up.</h3>
+          <button type="button" class="btn btn-danger" id="animate">Start-Animation</button>
+          <p>left to right animation the box</p>                  
+          <div class="animation"></div>
+          <hr>
+          <br><br><br><br>
+          <h3>15. Click to slide the panel down or up.</h3>
+          <button type="button" class="btn btn-danger" id="animate1">Start-Animation</button>
+          <p>left to right animation the box</p>
+          <div class="animation1"></div>
+          <hr>
+
+          <br><br><br><br>
+          <h3 class="mt-2">16. Click to slide the panel down or up.</h3>
+          <button type="button" class="btn btn-danger" id="animate2">Start-Animation</button>
+          <p>toggle animation the box</p>
+          <div class="animation2"></div>
+          <hr>
+
+          <br><br><br><br>
+          <h3 class="mt-3">17. Click to slide the panel down or up.</h3>
+          <button type="button" class="btn btn-danger" id="animate3">Start-Animation</button>
+          <p>all HTML elements have a static position, and cannot be moved</p>
+          <div class="animation3">Sajib Hossain</div>
+          <hr>
+
+          <br><br><br><br>
+          <h3 class="mt-3">18. Slide animation start & stop.</h3>
+          <button type="button" class="btn"
+          id="animate4">Start</button>
+          <button type="button" class="btn btn-danger" id="stop4">Stop</button>
+          <div id="animation4">Hello world!</div>
+          <hr>
+
+          <h3 class="mt-3">19. Append text & Append list items.</h3>
+          <button type="button" class="btn btn-danger" id="appendbtn1">Append text</button>
+          <button type="button" class="btn btn-danger" id="appendbtn2">Append list items</button>
+          <p class="appendbtn1">This is another paragraph.</p> 
+          <ol class="appendbtn2">
+            <li>List item 1</li>
+            <li>List item 2</li>
+          </ol>
+          <hr>
+
+          <h2>20. click button & set the bg color</h2>
+          <button type="button" class="btn btn-danger mb-3" id="bgclrchang">Set background-color of p</button>
+          <p class="bgclrp" style="background-color:#ff0000">This is a paragraph.</p>
+          <p class="bgclrp" style="background-color:#00ff00">This is a paragraph.</p>
+          <p class="bgclrp" style="background-color:#0000ff">This is a paragraph.</p>
+          <hr>
+          
+
+
+
+
+
+        </div>
+      </div>
+    
+    </div>
+
+
+
+    <!-- js link start here -->
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+    <!-- js link end here -->
+</body>
+</html>

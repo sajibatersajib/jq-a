@@ -1,0 +1,74 @@
+.slideup{
+    color: red;
+    margin: 5px;
+    cursor: pointer;
+}
+.slideup:hover {
+    background: yellow;
+}
+#div1{
+  margin: 10px;
+  width:80px;
+  height:80px;
+  display:none;
+  background-color:red;
+}
+#div2{
+  margin: 10px;
+  width:80px;
+  height:80px;
+  display:none;
+  background-color:green;
+}
+#panel, #flip {
+  padding: 5px;
+  text-align: center;
+}
+
+#panel {
+  margin-top: 10px;
+  padding: 50px;
+  background-color: rgb(0, 255, 191);
+  color: white;
+  display: none;
+}
+.animation{
+  background:#e30c0c;
+  height:100px;
+  width:100px;
+  position:absolute;
+}
+.animation1{
+  background:#e30c89;
+  height:100px;
+  width:100px;
+  position:absolute;
+}
+.animation2{
+  background:#0353f1;
+  text-align: center;
+  display: inline;
+  height:125px;
+  width:125px;
+  position:absolute;
+}
+.animation3{
+  background:#98bf21;
+  height:100px;
+  width:200px;
+  color: aliceblue;
+  position:absolute;
+}
+#animation4, #animate4 {
+  padding: 5px;
+  font-size: 18px;
+  text-align: center;
+  background-color: #555;
+  color: white;
+  border: solid 1px #666;
+  border-radius: 3px;
+}
+#animation4{
+  padding: 50px;
+  display: none;
+}
