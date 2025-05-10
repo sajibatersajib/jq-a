@@ -1,2 +1,3 @@
 # jq-a
-jqueary
+jquery
+https://sajibatersajib.github.io/jq-a/
